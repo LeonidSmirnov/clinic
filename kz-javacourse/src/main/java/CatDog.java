@@ -17,4 +17,8 @@ public CatDog(Pet dog , Pet cat){
     public String getName() {
         return String.format("%s%s", this.cat.getName() , this.dog.getName());
     }
+
+    public String getNicname() {
+        return getName();
+    }
 }

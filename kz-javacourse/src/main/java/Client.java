@@ -9,4 +9,16 @@ public class Client {
         this.id = id;
         this.pet = pet;
     }
+
+    @Override
+    public String toString() {
+        return "id :" + this.id + "    pet: " + this.pet;
+
+    }
+    public String getPetName(){
+        return this.pet.getName();
+    }
+    public String getClientName(){
+        return this.id;
+    }
 }

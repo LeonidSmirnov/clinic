@@ -16,4 +16,13 @@ public class Animal implements Pet {
     public String getName() {
         return this.name;
     }
+
+    public String getNicname() {
+        return this.name;
+    }
+
+    @Override
+    public String toString() {
+       return (this.getName());
+    }
 }
